@@ -1,0 +1,44 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #e7e6e4;
+  padding-top: 56px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+#logo {
+  text-align: start;
+}
+.infos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#contact-details {
+  margin-top: 55px;
+}
+.contact-info {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #6d2e46;
+  letter-spacing: 2px;
+  margin-bottom: 0rem;
+  margin-left: 22px;
+}
+#phone-num {
+  text-decoration-line: underline;
+  color: #6d2e46;
+}
+#quick-links {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #6d2e46;
+  margin-bottom: 32px;
+}

@@ -22,7 +22,7 @@
       top: 2140px; */
     padding: 5%;
     /* background: #e7e6e4; */
-    background: red;
+    background: #e7e6e4;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
   }
@@ -43,6 +43,6 @@
     line-height: 16px;
     letter-spacing: 0.5px;
     /* text-align: left; */
-    margin-bottom: 128px;
+    margin-bottom: 111px;
   }
 }
