@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+  #consultation-headline {
+    margin-bottom: 87px;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #6d2e46;
+    /* text-align: left; */
+  }
+  .consultations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+  }
+  .consultation-card {
+    /* position: absolute;
+      width: 345px;
+      height: 235px;
+      left: 547px;
+      top: 2140px; */
+    padding: 5%;
+    /* background: #e7e6e4; */
+    background: red;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  #book-btn {
+    margin-top: 61px;
+    height: 50px;
+    width: 200px;
+    left: 620px;
+    top: 2436px;
+    border-radius: 5px;
+    padding: 12px 21px 12px 21px;
+    background: #6d2e46;
+    border-radius: 5px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    /* text-align: left; */
+    margin-bottom: 128px;
+  }
+}
