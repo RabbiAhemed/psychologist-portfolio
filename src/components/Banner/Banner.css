@@ -1,0 +1,50 @@
+.banner {
+  background-color: #e7e6e4;
+}
+@media only screen and (min-width: 768px) {
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner-left {
+    margin-left: 126px;
+  }
+}
+#banner-header {
+  font-family: "Great Vibes";
+  font-size: 66px;
+  font-style: italic;
+  font-weight: 400;
+  /* line-height: 131px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+#banner-tagline {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  color: #6d2e46;
+}
+#banner-text {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6d2e46;
+  margin-top: 33px;
+}
+#banner-btn {
+  background-color: #6d2e46;
+  padding: 12px 21px;
+  /* position: absolute; */
+  width: 200px;
+  height: 50px;
+  margin-top: 83px;
+  color: white;
+}

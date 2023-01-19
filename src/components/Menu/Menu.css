@@ -1,6 +1,9 @@
 .active {
   background-color: red;
 }
+.menu {
+  background-color: #e7e6e4;
+}
 
 .logo-name {
   /* position: absolute; */
@@ -51,4 +54,8 @@
 }
 .menu-right {
   padding-right: 149px;
+}
+
+.menu-right > NavLink {
+  padding-right: 50px;
 }

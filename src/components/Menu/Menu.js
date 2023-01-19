@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
 import "./Menu.css";
 const Menu = () => {
-  let activeStyle = {
-    textDecoration: "underline",
-  };
   return (
-    <Navbar bg="" expand="lg">
+    <Navbar bg="" expand="lg" className="menu">
       <Container fluid>
         <Navbar.Brand href="#">
           <div className="menu-left">
@@ -15,7 +12,7 @@ const Menu = () => {
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className=" menu-right">
+        <Navbar.Collapse id="navbarScroll" className="menu-right">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
@@ -32,7 +29,6 @@ const Menu = () => {
             ABOUT ME
           </NavLink>
           <NavLink to="/about-me">CONTACT US</NavLink>
-          {/* <NavLink to="/contact-us">Home</NavLink> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
