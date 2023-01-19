@@ -1,0 +1,49 @@
+#user-icon {
+  height: 188px;
+  width: 188px;
+  left: 47px;
+  top: 54px;
+  border-radius: 90px;
+}
+#card-right {
+  text-align: start;
+}
+@media only screen and (min-width: 768px) {
+  #card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 886px;
+    height: 411px;
+    background-color: #e7e6e4;
+    border-radius: 10px;
+  }
+  #user-icon {
+    height: 188px;
+    width: 188px;
+    left: 47px;
+    top: 54px;
+  }
+  #text-box {
+    width: 530px;
+    height: 230px;
+    left: 279px;
+    top: 120px;
+  }
+  #card-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  #card-right {
+    padding-left: 50px;
+    padding-top: 54px;
+    margin-right: 77px;
+  }
+  #card-left {
+    padding-left: 47px;
+    padding-top: 54px;
+  }
+}
