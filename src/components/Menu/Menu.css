@@ -14,59 +14,63 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 2px;
-  /* text-align: left; */
 }
-.logo-name {
-  /* position: absolute; */
-  left: -9.51%;
-  right: -23.94%;
-  top: 6.82%;
-  bottom: 36.36%;
+@media only screen and (min-width: 768px) {
+  .logo-name {
+    left: -9.51%;
+    right: -23.94%;
+    top: 6.82%;
+    bottom: 36.36%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #6d2e46;
+  }
 
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  /* line-height: 16px; */
-  /* or 57% */
-
-  /* letter-spacing: 2px; */
-
-  /* Primary Color */
-  /* margin-left: 127px; */
-  color: #6d2e46;
+  .logo-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #6d2e46;
+  }
+  .menu-left {
+    margin-left: 154px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .menu-right {
+    padding-right: 149px;
+  }
 }
+@media only screen and (max-width: 425px) {
+  .logo-name {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6d2e46;
+    text-align: start;
+  }
 
-.logo-title {
-  /* position: absolute; */
-  /* left: 12.32%;
-  right: 13.73%;
-  top: 63.64%;
-  bottom: 0%; */
-
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height, or 114% */
-
-  letter-spacing: 2px;
-
-  /* Primary Color */
-  /* margin-left: 189px; */
-  color: #6d2e46;
-}
-.menu-left {
-  margin-left: 154px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  /* margin-right: 1002px; */
-}
-.menu-right {
-  padding-right: 149px;
-}
-
-.menu-right > NavLink {
-  padding-right: 50px;
+  .logo-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #6d2e46;
+  }
+  .menu-left {
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .menu-right {
+    padding-right: 149px;
+  }
 }

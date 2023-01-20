@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -30,13 +29,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-div">
+        <div className="footer-div" id="footer-div-2">
           <h4 id="quick-links">Quick Links</h4>
           <p id="book-session">Book Session</p>
           <p id="about-me">About Me</p>
           <p id="contact-us">Contact Us</p>
         </div>
-        <div className="footer-div">
+        <div className="footer-div" id="footer-div-3">
           <h4 id="legal">Legal Stuff</h4>
           <p id="disclaimer">Disclaimer</p>
           <p id="privacy">Privacy Policy</p>

@@ -1,13 +1,7 @@
-#user-icon {
-  height: 188px;
-  width: 188px;
-  left: 47px;
-  top: 54px;
-  border-radius: 90px;
-}
 #card-right {
   text-align: start;
 }
+
 @media only screen and (min-width: 768px) {
   #card {
     display: flex;
@@ -23,6 +17,14 @@
     width: 188px;
     left: 47px;
     top: 54px;
+  }
+  #user-name {
+    color: #6d2e46;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 13px;
   }
   #text-box {
     width: 530px;
@@ -45,5 +47,59 @@
   #card-left {
     padding-left: 47px;
     padding-top: 54px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #card {
+    text-align: start;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    width: 90%;
+    /* height: 10%; */
+    background-color: #e7e6e4;
+    border-radius: 10px;
+  }
+  #user-icon {
+    height: 88px;
+    width: 88px;
+    /* left: 47px;
+    top: 54px; */
+  }
+  #user-name {
+    color: #6d2e46;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 9px;
+  }
+  #text-box {
+    /* width: 530px;
+    height: 230px;
+    left: 279px;
+    top: 120px; */
+    text-align: start;
+  }
+  #card-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+  #card-right {
+    text-align: center;
+    /* padding-left: 50px; */
+    /* padding-top: 0px; */
+    /* margin-right: 77px; */
+    padding-bottom: 20px;
+  }
+  #card-left {
+    text-align: center;
+    /* padding-left: 47px; */
+    padding-top: 30px;
   }
 }

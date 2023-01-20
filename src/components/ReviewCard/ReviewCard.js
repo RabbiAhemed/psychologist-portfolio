@@ -6,7 +6,7 @@ const ReviewCard = () => {
     <Container id="card">
       <div id="card-left">
         <img id="user-icon" src="https://i.ibb.co/bmMXrTJ/user.png" alt="" />
-        <p>Emily Kinney</p>
+        <p id="user-name">Emily Kinney</p>
       </div>
 
       <div id="card-right">
