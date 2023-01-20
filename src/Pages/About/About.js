@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./About.css";
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <p className="header">About Me</p>
       <Container className="about-box">
         <div id="about-left">
