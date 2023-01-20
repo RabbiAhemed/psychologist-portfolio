@@ -2,7 +2,7 @@ import React from "react";
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div className="banner mt-5 pt-5">
+    <div className="banner">
       <div className="text-center banner-left">
         <p id="banner-header">Growth, healing and hope</p>
         <p id="banner-tagline">From the comfort of your own space</p>
@@ -10,7 +10,11 @@ const Banner = () => {
         <button id="banner-btn">Book Session</button>
       </div>
       <div>
-        <img src="https://i.ibb.co/6XfGGwd/cropped.jpg" alt="" srcset="" />
+        <img
+          className="banner-img"
+          src="https://i.ibb.co/6XfGGwd/cropped.jpg"
+          alt=""
+        />
       </div>
     </div>
   );

@@ -5,17 +5,12 @@ const ReviewCard = () => {
   return (
     <Container id="card">
       <div id="card-left">
-        <img
-          id="user-icon"
-          src="https://i.ibb.co/bmMXrTJ/user.png"
-          alt=""
-          srcset=""
-        />
+        <img id="user-icon" src="https://i.ibb.co/bmMXrTJ/user.png" alt="" />
         <p>Emily Kinney</p>
       </div>
 
       <div id="card-right">
-        <img src="https://i.ibb.co/5R4YLFp/Group-1.png" alt="" srcset="" />
+        <img src="https://i.ibb.co/5R4YLFp/Group-1.png" alt="" />
         <p className="my-2">
           <strong>5/5</strong>
         </p>

@@ -1,3 +1,20 @@
 body {
   background-color: #cebebe !important;
 }
+hr {
+  border: 1px solid #6d2e46 !important;
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+.half-circle {
+  height: 150px;
+  width: 75px;
+  border-radius: 150px 0 0 150px;
+  border-top: 20px solid #000;
+  border-left: 20px solid #000;
+  border-bottom: 20px solid #000;
+  transform: translate(100px) rotate(-90deg);
+  position: relative;
+}

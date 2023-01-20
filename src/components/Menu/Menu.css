@@ -4,7 +4,18 @@
 .menu {
   background-color: #e7e6e4;
 }
-
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu-right a {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  /* text-align: left; */
+}
 .logo-name {
   /* position: absolute; */
   left: -9.51%;

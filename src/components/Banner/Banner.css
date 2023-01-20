@@ -1,11 +1,15 @@
 .banner {
   background-color: #e7e6e4;
 }
+.banner-img {
+  width: 100%;
+}
 @media only screen and (min-width: 768px) {
   .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5%;
   }
   .banner-left {
     margin-left: 126px;

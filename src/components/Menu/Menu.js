@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 const Menu = () => {
   return (
     <Navbar bg="" expand="lg" className="menu">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand to="/">
           <div className="menu-left">
             <span className="logo-name">Sayesta Goswami, PhD</span>
             <h6 className="logo-title">CLINICAL PSYCHOLOGIST</h6>
@@ -19,16 +20,18 @@ const Menu = () => {
             navbarScroll
           ></Nav>
 
-          <NavLink
+          <Link
             className={({ isActive }) => (isActive ? "active" : undefined)}
             to="/"
           >
             HOME
-          </NavLink>
-          <NavLink className="mx-5" to="/">
-            ABOUT ME
-          </NavLink>
-          <NavLink to="/about-me">CONTACT US</NavLink>
+          </Link>
+          <Link to="/about" className="ms-4">
+            ABOUT
+          </Link>
+          <Link to="/contact" className="ms-4">
+            CONTACT US
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

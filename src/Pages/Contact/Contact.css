@@ -1,0 +1,200 @@
+form {
+  text-align: start;
+}
+form input {
+  border-radius: 5px;
+}
+form textarea {
+  border-radius: 5px;
+}
+.label {
+  display: inline-block;
+  text-align: start;
+  color: black;
+  font-family: "Open Sans";
+}
+#submit-btn {
+  background-color: #6d2e46;
+  padding: 12px 21px;
+  /* position: absolute; */
+  width: 200px;
+  /* height: 50px; */
+  margin-top: 13px;
+  font-size: 14px;
+  color: white;
+}
+/* desktop */
+@media only screen and (min-width: 768px) {
+  #contact {
+    margin: 109px 125px 99px 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #contact-us-c {
+    margin-bottom: 71px;
+    font-family: Open Sans;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    color: #6d2e46;
+    text-align: start;
+  }
+  #contact-c {
+    margin-top: 109px;
+  }
+  .infos-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #contact-details-c {
+    margin-top: 55px;
+  }
+  .contact-info-c {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.6156px;
+    line-height: 25px;
+    text-align: start;
+    /* or 114% */
+
+    letter-spacing: 3.08795px;
+
+    /* Primary Color */
+
+    color: #6d2e46;
+    margin-bottom: 0rem;
+    margin-left: 22px;
+  }
+  #phone-num-c {
+    text-decoration-line: underline;
+    color: #6d2e46;
+  }
+  .contact-c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* form start */
+  .form-style-1 {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Open Sans";
+    color: black;
+  }
+  .form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  .form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+  }
+  .form-style-1 input[type="text"],
+  .form-style-1 input[type="date"],
+  .form-style-1 input[type="datetime"],
+  .form-style-1 input[type="number"],
+  .form-style-1 input[type="search"],
+  .form-style-1 input[type="time"],
+  .form-style-1 input[type="url"],
+  .form-style-1 input[type="email"],
+  textarea,
+  select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #bebebe;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    outline: none;
+    background-color: #d9d9d9;
+  }
+  .form-style-1 input[type="text"]:focus,
+  .form-style-1 input[type="date"]:focus,
+  .form-style-1 input[type="datetime"]:focus,
+  .form-style-1 input[type="number"]:focus,
+  .form-style-1 input[type="search"]:focus,
+  .form-style-1 input[type="time"]:focus,
+  .form-style-1 input[type="url"]:focus,
+  .form-style-1 input[type="email"]:focus,
+  .form-style-1 textarea:focus,
+  .form-style-1 select:focus {
+    -moz-box-shadow: 0 0 8px #88d5e9;
+    -webkit-box-shadow: 0 0 8px #88d5e9;
+    box-shadow: 0 0 8px #88d5e9;
+    border: 1px solid #88d5e9;
+  }
+  .form-style-1 .field-divided {
+    width: 49%;
+  }
+
+  .form-style-1 .field-long {
+    width: 100%;
+  }
+  .form-style-1 .field-select {
+    width: 100%;
+  }
+  .form-style-1 .field-textarea {
+    height: 100px;
+  }
+  .form-style-1 input[type="submit"],
+  .form-style-1 input[type="button"] {
+    background: #4b99ad;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+  }
+  .form-style-1 input[type="submit"]:hover,
+  .form-style-1 input[type="button"]:hover {
+    background: #4691a4;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .form-style-1 .required {
+    color: black;
+  }
+  /* form end */
+}
+
+/* mobile */
+@media only screen and (max-width: 425px) {
+  .infos-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #contact-details-c {
+    margin-top: 55px;
+  }
+  .contact-info-c {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #6d2e46;
+    letter-spacing: 2px;
+    margin-bottom: 0rem;
+    margin-left: 22px;
+  }
+  #phone-num-c {
+    text-decoration-line: underline;
+    color: #6d2e46;
+  }
+}
