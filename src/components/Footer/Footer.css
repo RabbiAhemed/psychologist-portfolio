@@ -56,10 +56,7 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 2px;
-  /* width: 121px; */
-  height: 16px;
-  /* left: 730px; */
-  top: 2701px;
+  margin-bottom: 30px;
 }
 #about-me {
   font-family: Open Sans;
@@ -67,6 +64,7 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 2px;
+  margin-bottom: 30px;
   /* text-align: left; */
 }
 #contactUs {
@@ -82,6 +80,7 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 #privacy {
   font-family: Open Sans;
@@ -89,6 +88,7 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 #terms {
   font-family: Open Sans;
@@ -129,7 +129,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .footer {
     padding: 7%;
   }
@@ -140,14 +140,14 @@
     line-height: 16px;
     letter-spacing: 2px;
     color: #6d2e46;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   #legal {
     margin-top: 20%;
     line-height: 16px;
     letter-spacing: 2px;
     color: #6d2e46;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   #footer-div-2 {
     margin-top: 20%;

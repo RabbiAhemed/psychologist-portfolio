@@ -83,7 +83,7 @@
   text-align: left;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   #consultation-headline {
     margin: 47px;
     margin-left: 3%;

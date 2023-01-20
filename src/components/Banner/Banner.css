@@ -54,7 +54,14 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
+  .banner {
+    margin-top: 10%;
+    padding-top: 7%;
+  }
+  .banner-img {
+    padding-top: 5%;
+  }
   #banner-header {
     font-family: "Great Vibes";
     font-size: 36px;

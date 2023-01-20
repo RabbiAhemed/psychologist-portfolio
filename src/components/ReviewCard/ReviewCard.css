@@ -12,6 +12,9 @@
     background-color: #e7e6e4;
     border-radius: 10px;
   }
+  .card-text {
+    text-align: start;
+  }
   #user-icon {
     height: 188px;
     width: 188px;
@@ -50,9 +53,9 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   #card {
-    text-align: start;
+    text-align: center;
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
@@ -61,6 +64,7 @@
     background-color: #e7e6e4;
     border-radius: 10px;
   }
+
   #user-icon {
     height: 88px;
     width: 88px;

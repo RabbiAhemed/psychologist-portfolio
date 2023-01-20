@@ -33,7 +33,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .therapy {
     margin-top: 50px;
     margin-bottom: 50px;
